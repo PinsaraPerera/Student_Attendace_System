@@ -34,7 +34,7 @@ Our project addresses several challenges faced by the Faculty of Computing and T
 We welcome contributions from students and faculty members. Whether it's feature suggestions, bug reports, or code contributions, please feel free to make your impact.
 
 ## License
--**MIT License**
+- **MIT License**
 
 ## Team Members
 
