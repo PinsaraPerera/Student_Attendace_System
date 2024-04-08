@@ -41,7 +41,7 @@ We welcome contributions from students and faculty members. Whether it's feature
 Our project is the result of the hard work and dedication of a talented group of individuals. Meet the team behind the Student Attendance System using Face Recognition:
 
 - **Pawan Perera** - CS/2020/005
-- **[Name]** - stu_no
+- **Y.P.Viduruwan**- CS/2020/006
 - **[Name]** - stu_no
 - **[Name]** - stu_no
 - **[Name]** - stu_no
