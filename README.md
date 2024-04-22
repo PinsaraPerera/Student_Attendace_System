@@ -42,7 +42,7 @@ Our project is the result of the hard work and dedication of a talented group of
 
 - **Pawan Perera** - CS/2020/005
 - **Y.P.Viduruwan**- CS/2020/006
-- **[Name]** - stu_no
+- **Oshada Weerasiri** - CS/2020/071
 - **[Name]** - stu_no
 - **[Name]** - stu_no
 - **[Name]** - stu_no
