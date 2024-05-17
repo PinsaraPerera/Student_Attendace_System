@@ -117,38 +117,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8-student-48 (2) - Copy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\icons8-student-48 (2) - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="create_lecture_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAEOSURBVGhD7ZJRagJBEET3Egnm/jdKBI+zzvQ8RJgf263p
+        bEg9WNRuuqyHbuYvsZ8MauXh/jRQKw/37weIoIZFLKKGGhaxiBpqWOT/iLAOGAWM0nA+wdoixwNEUMMi
+        FlFDjXUirANGAaM0nE+wtsjxABHUsIhF1FBjnQjrgFHAKA3nE6wtcjxABDUsYhE11FgnwjpgFDBKw/kE
+        a4scDxBBDYtYRA01zi3CV7wEJ3m4P4vIlZM8BJSI8PFBG3205zuW+35rzxerPCOjXqR91El0Rk6tSHur
+        leiMrDqR9qKX6Iy8GpHGGonOyCwT+Xl6/WStYeSWiXT6L3FhpWNkl7FGojPyS7i2R/t3Mr/Ktt0BtOd1
+        h+UrgT8AAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="icons8-student-48 (2) - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\icons8-student-48 (2) - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-setting-50 (1) - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\icons8-setting-50 (1) - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Student Attendance System_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Student Attendance System_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-student-48 (2) - Copy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\icons8-student-48 (2) - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-teacher-50 - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\icons8-teacher-50 - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-setting-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\icons8-setting-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-reports-58 - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\icons8-reports-58 - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-setting-1001" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\icons8-setting-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-meeting-room-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\icons8-meeting-room-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-teacher" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\pic\icons8-teacher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="directorySearcher1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="directorySearcher2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>201, 17</value>
+  </metadata>
+  <metadata name="directorySearcher3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>385, 17</value>
+  </metadata>
+  <metadata name="directorySearcher4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>569, 17</value>
+  </metadata>
+  <metadata name="directorySearcher5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>753, 17</value>
+  </metadata>
+  <metadata name="directorySearcher6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>937, 17</value>
+  </metadata>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1121, 17</value>
+  </metadata>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1306, 17</value>
+  </metadata>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="back_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAFSSURBVEhL7ZUxSsRAFIZjJYqFzWohXsBC1mYvoGBj5yk8
+        gYWllYUXUNwjWIidgiAKIlbaKNjtBURUENTxe5N/EU12ErI7KSQffMW+9+b9JEzYpKHBOTeD13iqUnwI
+        a+EtelSOCzm/Qg214kFGJtRQOw7szw01NDJ62G0X6c6n5POMD3iJXdzAto5XgwVFoSEecRtnta48HLqx
+        DUPyijs4qbXFMDyK4D73uKTVYRgc5lXnYfdhWevDMDjwRlfkDTtaH4bB0JNP4Ry2cR238BifcBA9nNb6
+        MAzmhqudgdY4ruERfuJf9jVaDMOZcLWCMLaIF/7ADx+4oJFiGK70J8HoGG7il50TB2qXgwP25Fd4olJp
+        OGPhfewbn1ArPoQd+tiUVZXjQ9g8vvhY53ZVrgcC99Jcd6ZSPRC4kua6nkr1QKB9Hca7SvVBqH3b5/rZ
+        8O9Jkm9fSmJyrZtyCQAAAABJRU5ErkJggg==
+</value>
   </data>
 </root>

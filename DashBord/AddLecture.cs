@@ -41,5 +41,15 @@ namespace DashBord
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void create_lecture_btn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
