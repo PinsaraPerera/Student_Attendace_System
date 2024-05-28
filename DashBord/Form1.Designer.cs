@@ -33,49 +33,83 @@ namespace DashBord
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.log_out_btn = new System.Windows.Forms.Button();
+            this.dashbord_btn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.log_out_btn = new System.Windows.Forms.Button();
             this.setting_btn = new System.Windows.Forms.Button();
             this.add_teacher_btn = new System.Windows.Forms.Button();
             this.leture_btn = new System.Windows.Forms.Button();
             this.report_btn = new System.Windows.Forms.Button();
             this.add_student_btn = new System.Windows.Forms.Button();
-            this.dashbord_btn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.addLecture3 = new DashBord.AddLecture();
+            this.addLecture2 = new DashBord.AddLecture();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.notifyIcon2 = new System.Windows.Forms.NotifyIcon(this.components);
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.addTeacher = new DashBord.AddTeacher();
+            this.sTudent1 = new DashBord.STudent();
             this.addLecture1 = new DashBord.AddLecture();
             this.addTeacher1 = new DashBord.AddTeacher();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
-            this.panel1.Controls.Add(this.log_out_btn);
+            this.panel1.Controls.Add(this.dashbord_btn);
             this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.log_out_btn);
             this.panel1.Controls.Add(this.setting_btn);
             this.panel1.Controls.Add(this.add_teacher_btn);
             this.panel1.Controls.Add(this.leture_btn);
             this.panel1.Controls.Add(this.report_btn);
             this.panel1.Controls.Add(this.add_student_btn);
-            this.panel1.Controls.Add(this.dashbord_btn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(467, 1035);
+            this.panel1.Size = new System.Drawing.Size(464, 1016);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // dashbord_btn
+            // 
+            this.dashbord_btn.AccessibleName = "dashbord_btn";
+            this.dashbord_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
+            this.dashbord_btn.FlatAppearance.BorderSize = 0;
+            this.dashbord_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dashbord_btn.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashbord_btn.ForeColor = System.Drawing.Color.White;
+            this.dashbord_btn.Image = ((System.Drawing.Image)(resources.GetObject("dashbord_btn.Image")));
+            this.dashbord_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.dashbord_btn.Location = new System.Drawing.Point(44, 250);
+            this.dashbord_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dashbord_btn.Name = "dashbord_btn";
+            this.dashbord_btn.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.dashbord_btn.Size = new System.Drawing.Size(403, 59);
+            this.dashbord_btn.TabIndex = 2;
+            this.dashbord_btn.Text = "Dashbord\r\n\r\n";
+            this.dashbord_btn.UseVisualStyleBackColor = false;
+            this.dashbord_btn.Click += new System.EventHandler(this.dashbord_btn_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(460, 229);
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
             // 
             // log_out_btn
             // 
@@ -95,17 +129,6 @@ namespace DashBord
             this.log_out_btn.Text = "Log out\r\n\r\n\r\n\r\n";
             this.log_out_btn.UseVisualStyleBackColor = false;
             this.log_out_btn.Click += new System.EventHandler(this.log_out_btn_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, -57);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(467, 295);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
             // 
             // setting_btn
             // 
@@ -205,48 +228,48 @@ namespace DashBord
             this.add_student_btn.UseVisualStyleBackColor = false;
             this.add_student_btn.Click += new System.EventHandler(this.add_student_btn_Click_1);
             // 
-            // dashbord_btn
-            // 
-            this.dashbord_btn.AccessibleName = "dashbord_btn";
-            this.dashbord_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
-            this.dashbord_btn.FlatAppearance.BorderSize = 0;
-            this.dashbord_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dashbord_btn.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashbord_btn.ForeColor = System.Drawing.Color.White;
-            this.dashbord_btn.Image = ((System.Drawing.Image)(resources.GetObject("dashbord_btn.Image")));
-            this.dashbord_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.dashbord_btn.Location = new System.Drawing.Point(44, 247);
-            this.dashbord_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dashbord_btn.Name = "dashbord_btn";
-            this.dashbord_btn.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.dashbord_btn.Size = new System.Drawing.Size(403, 59);
-            this.dashbord_btn.TabIndex = 2;
-            this.dashbord_btn.Text = "Dashbord\r\n\r\n";
-            this.dashbord_btn.UseVisualStyleBackColor = false;
-            this.dashbord_btn.Click += new System.EventHandler(this.dashbord_btn_Click);
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(222)))), ((int)(((byte)(33)))));
-            this.panel2.Controls.Add(this.pictureBox7);
+            this.panel2.Controls.Add(this.addLecture3);
+            this.panel2.Controls.Add(this.addLecture2);
+            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(467, 0);
+            this.panel2.Location = new System.Drawing.Point(464, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1488, 105);
+            this.panel2.Size = new System.Drawing.Size(1459, 151);
             this.panel2.TabIndex = 1;
             // 
-            // pictureBox7
+            // addLecture3
             // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(1309, 14);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(85, 84);
-            this.pictureBox7.TabIndex = 3;
-            this.pictureBox7.TabStop = false;
+            this.addLecture3.ForeColor = System.Drawing.Color.White;
+            this.addLecture3.Location = new System.Drawing.Point(83, 57);
+            this.addLecture3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addLecture3.Name = "addLecture3";
+            this.addLecture3.Size = new System.Drawing.Size(8, 7);
+            this.addLecture3.TabIndex = 5;
+            // 
+            // addLecture2
+            // 
+            this.addLecture2.ForeColor = System.Drawing.Color.White;
+            this.addLecture2.Location = new System.Drawing.Point(147, 92);
+            this.addLecture2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addLecture2.Name = "addLecture2";
+            this.addLecture2.Size = new System.Drawing.Size(8, 7);
+            this.addLecture2.TabIndex = 4;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.Location = new System.Drawing.Point(1293, 17);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(71, 71);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
             // label3
             // 
@@ -286,10 +309,31 @@ namespace DashBord
             this.notifyIcon2.Text = "notifyIcon2";
             this.notifyIcon2.Visible = true;
             // 
+            // addTeacher
+            // 
+            this.addTeacher.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addTeacher.ForeColor = System.Drawing.Color.White;
+            this.addTeacher.Location = new System.Drawing.Point(460, 157);
+            this.addTeacher.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addTeacher.Name = "addTeacher";
+            this.addTeacher.Size = new System.Drawing.Size(1485, 930);
+            this.addTeacher.TabIndex = 11;
+            // 
+            // sTudent1
+            // 
+            this.sTudent1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.sTudent1.ForeColor = System.Drawing.Color.White;
+            this.sTudent1.Location = new System.Drawing.Point(460, 157);
+            this.sTudent1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sTudent1.Name = "sTudent1";
+            this.sTudent1.Size = new System.Drawing.Size(1485, 930);
+            this.sTudent1.TabIndex = 0;
+            this.sTudent1.Load += new System.EventHandler(this.sTudent1_Load);
+            // 
             // addLecture1
             // 
             this.addLecture1.ForeColor = System.Drawing.Color.White;
-            this.addLecture1.Location = new System.Drawing.Point(465, 103);
+            this.addLecture1.Location = new System.Drawing.Point(460, 157);
             this.addLecture1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.addLecture1.Name = "addLecture1";
             this.addLecture1.Size = new System.Drawing.Size(1491, 930);
@@ -300,19 +344,20 @@ namespace DashBord
             // 
             this.addTeacher1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.addTeacher1.ForeColor = System.Drawing.Color.White;
-            this.addTeacher1.Location = new System.Drawing.Point(467, 104);
+            this.addTeacher1.Location = new System.Drawing.Point(0, 0);
             this.addTeacher1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.addTeacher1.Name = "addTeacher1";
-            this.addTeacher1.Size = new System.Drawing.Size(1485, 931);
-            this.addTeacher1.TabIndex = 3;
+            this.addTeacher1.Size = new System.Drawing.Size(1485, 842);
+            this.addTeacher1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1955, 1035);
-            this.Controls.Add(this.addTeacher1);
+            this.ClientSize = new System.Drawing.Size(1923, 1016);
+            this.Controls.Add(this.addTeacher);
+            this.Controls.Add(this.sTudent1);
             this.Controls.Add(this.addLecture1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -325,7 +370,7 @@ namespace DashBord
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -354,15 +399,19 @@ namespace DashBord
         private System.Windows.Forms.Button add_teacher_btn;
         private System.Windows.Forms.Button leture_btn;
         private System.Windows.Forms.Button setting_btn;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button log_out_btn;
-        private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Button report_btn;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private AddLecture addLecture1;
        // private EventHandler report_btn_Click;
         private EventHandler add_student_btn_Click;
         private AddTeacher addTeacher1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private STudent sTudent1;
+        private AddLecture addLecture2;
+        private AddLecture addLecture3;
+        private AddTeacher addTeacher;
     }
 }
 

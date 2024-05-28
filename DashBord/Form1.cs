@@ -57,13 +57,15 @@ namespace DashBord
         private void leture_btn_Click(object sender, EventArgs e)
         {
            addLecture1.Visible = true;
-           addTeacher1.Visible = false;
+          addTeacher.Visible = false;
+            sTudent1.Visible = false;
         }
 
         private void dashbord_btn_Click(object sender, EventArgs e)
         {
             addLecture1.Visible = false;
-            addTeacher1.Visible = false;
+          //  addTeacher3.Visible = false;
+            sTudent1.Visible = false;
         }
 
         private void log_out_btn_Click(object sender, EventArgs e)
@@ -81,7 +83,8 @@ namespace DashBord
         private void add_teacher_btn_Click(object sender, EventArgs e)
         {
             addLecture1.Visible = false;
-            addTeacher1.Visible = true;
+            addTeacher.Visible = true;
+            sTudent1.Visible = false;
         }
 
         private void setting_btn_Click(object sender, EventArgs e)
@@ -97,25 +100,45 @@ namespace DashBord
         private void add_student_btn_Click_1(object sender, EventArgs e)
         {
             addLecture1.Visible = false;
-            addTeacher1.Visible = false;
+           addTeacher.Visible = false;
+            sTudent1.Visible = true;
+            
         }
 
         private void report_btn_Click_1(object sender, EventArgs e)
         {
             addLecture1.Visible = false;
-            addTeacher1.Visible = false;
+            addTeacher.Visible = false;
+            sTudent1.Visible = false;
         }
 
         private void add_teacher_btn_Click_1(object sender, EventArgs e)
         {
             addLecture1.Visible = false;
-            addTeacher1.Visible = true;
+           addTeacher.Visible = true;
+            sTudent1.Visible = false;
         }
 
         private void setting_btn_Click_1(object sender, EventArgs e)
         {
             addLecture1.Visible = false;
-            addTeacher1.Visible = false;
+           addTeacher.Visible = false;
+            sTudent1.Visible = false;
+        }
+
+        private void addTeacher1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sTudent1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -73,6 +73,12 @@
     <Compile Include="AddLecture.Designer.cs">
       <DependentUpon>AddLecture.cs</DependentUpon>
     </Compile>
+    <Compile Include="STudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="STudent.Designer.cs">
+      <DependentUpon>STudent.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddTeacher.resx">
       <DependentUpon>AddTeacher.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddLecture.resx">
       <DependentUpon>AddLecture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STudent.resx">
+      <DependentUpon>STudent.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
