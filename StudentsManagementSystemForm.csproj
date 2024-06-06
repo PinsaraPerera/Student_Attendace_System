@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42DDFDC9-B48D-487B-9F75-29E91ED3B2B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StudentsManagementSystemForm</RootNamespace>
+    <AssemblyName>StudentsManagementSystemForm</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewStudent.Designer.cs">
+      <DependentUpon>AddNewStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTeacher.Designer.cs">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateNewLecture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateNewLecture.Designer.cs">
+      <DependentUpon>CreateNewLecture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFaculty.Designer.cs">
+      <DependentUpon>AddFaculty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewLecture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewLecture.Designer.cs">
+      <DependentUpon>ViewLecture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LectureUpdatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LectureUpdatedPopUp.Designer.cs">
+      <DependentUpon>LectureUpdatedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateLecture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateLecture.Designer.cs">
+      <DependentUpon>UpdateLecture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LectureCreatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LectureCreatedPopUp.Designer.cs">
+      <DependentUpon>LectureCreatedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherUpdatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherUpdatedPopUp.Designer.cs">
+      <DependentUpon>TeacherUpdatedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateTeacher.Designer.cs">
+      <DependentUpon>UpdateTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherAddedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherAddedPopUp.Designer.cs">
+      <DependentUpon>TeacherAddedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentUpdatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentUpdatedPopUp.Designer.cs">
+      <DependentUpon>StudentUpdatedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateStudent.Designer.cs">
+      <DependentUpon>UpdateStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAddedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentAddedPopUp.Designer.cs">
+      <DependentUpon>StudentAddedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddFaculty.resx">
+      <DependentUpon>AddFaculty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewStudent.resx">
+      <DependentUpon>AddNewStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTeacher.resx">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateNewLecture.resx">
+      <DependentUpon>CreateNewLecture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LectureCreatedPopUp.resx">
+      <DependentUpon>LectureCreatedPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LectureUpdatedPopUp.resx">
+      <DependentUpon>LectureUpdatedPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherAddedPopUp.resx">
+      <DependentUpon>TeacherAddedPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentAddedPopUp.resx">
+      <DependentUpon>StudentAddedPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StudentUpdatedPopUp.resx">
+      <DependentUpon>StudentUpdatedPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateLecture.resx">
+      <DependentUpon>UpdateLecture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateStudent.resx">
+      <DependentUpon>UpdateStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateTeacher.resx">
+      <DependentUpon>UpdateTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherUpdatedPopUp.resx">
+      <DependentUpon>TeacherUpdatedPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewLecture.resx">
+      <DependentUpon>ViewLecture.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yes1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
