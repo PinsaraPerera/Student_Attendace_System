@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ClassLibrary2;
 
 namespace DashBord
 {
@@ -19,7 +20,7 @@ namespace DashBord
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -126,10 +127,7 @@ namespace DashBord
             sTudent1.Visible = false;
         }
 
-        private void addTeacher1_Load(object sender, EventArgs e)
-        {
-
-        }
+    
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -139,6 +137,12 @@ namespace DashBord
         private void sTudent1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void addTeacher_Load(object sender, EventArgs e)
+        {
+        
+           
         }
     }
 }

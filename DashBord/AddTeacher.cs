@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using RestSharp;
+using Newtonsoft.Json;
+using ClassLibrary2;
+
 
 namespace DashBord
 {
@@ -14,7 +18,78 @@ namespace DashBord
     {
         public AddTeacher()
         {
-            InitializeComponent();
+            InitializeComponent(); //Store result of API convertion in obj
         }
+        Class1.Rootobject obj;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            getData();
+        }
+
+        private void getData()
+        {
+            //call the API
+            //use RestSharp
+            //Source :'https://fastapi-backend-2meuzsegna-uc.a.run.app/student/cs_2020_005' 
+            // var apikey = "hfdg";
+
+          
+         
+                var client = new RestClient("https://fastapi-backend-2meuzsegna-uc.a.run.app/student/");
+                var request = new RestRequest("cs_2020_005", Method.Get);
+                // request.AddHeader("Authorization", $"Bearer {apikey}");
+
+                var response = client.ExecuteGet(request);
+                Console.WriteLine(response.Content);
+               // MessageBox.Show(response.Content);
+                Console.WriteLine(response.StatusCode);
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    string rawResponse = response.Content;
+                    //convert the raw DATA TO JSON
+                    obj = JsonConvert.DeserializeObject<Class1.Rootobject>(rawResponse);
+                    //display the data
+                    if (obj != null)
+                    {
+                        var dataList = new List<Class1.Data> { obj.data };
+                        //MessageBox.Show("Data Fetched Successfully");
+                        // textBox1.Text = obj.data.employee_name;
+                        if (!string.IsNullOrEmpty(obj.data.student_name))
+                        {
+                            richTextBox1.Text = obj.data.student_name;
+                        }
+                        else
+                        {
+                            richTextBox1.Text = "Student name is not available";
+                        }
+                        //textBox3.Text = obj.data.employee_age.ToString();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error in API call 2 ");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Error in API call:");
+                }
+            
+            /*catch (Exception ex)
+            {
+
+                MessageBox.Show($"Exception occurred: {ex.Message}");
+            }*/
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void AddTeacher_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

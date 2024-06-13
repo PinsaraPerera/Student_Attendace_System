@@ -121,7 +121,7 @@
   <data name="create_lecture_btn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAQ5JREFUaEPtklFqAkEQRPcSCeb+N0oEj7PO9DxEmB/brelsSD1Y1G66rIdu5i+x
+        DgAACw4BQL7hQQAAAQ5JREFUaEPtklFqAkEQRPcSCeb+N0oEj7PO9DxEmB/brelsSD1Y1G66rIdu5i+x
         nwxq5eH+NFArD/fvB4ighkUsooYaFrGIGmpY5P+IsA4YBYzScD7B2iLHA0RQwyIWUUONdSKsA0YBozSc
         T7C2yPEAEdSwiEXUUGOdCOuAUcAoDecTrC1yPEAENSxiETXUWCfCOmAUMErD+QRrixwPEEENi1hEDTXO
         LcJXvAQnebg/i8iVkzwElIjw8UEbfbTnO5b7fmvPF6s8I6NepH3USXRGTq1Ie6uV6IysOpH2opfojLwa
@@ -177,7 +177,7 @@
   <data name="back_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAVJJREFUSEvtlTFKxEAUhmMlioXNaiFewELWZi+gYGPnKTyBhaWVhRdQ3CNYiJ2C
+        DAAACwwBP0AiyAAAAVJJREFUSEvtlTFKxEAUhmMlioXNaiFewELWZi+gYGPnKTyBhaWVhRdQ3CNYiJ2C
         IAoiVtoo2O0FRFQQ1PF7k38RTXYSsjspJB98xb735v0kTNikocE5N4PXeKpSfAhr4S16VI4LOb9CDbXi
         QUYm1FA7DuzPDTU0MnrYbRfpzqfk84wPeIld3MC2jleDBUWhIR5xG2e1rjwcurENQ/KKOziptcUwPIrg
         Pve4pNVhGBzmVedh92FZ68MwOPBGV+QNO1ofhsHQk0/hHLZxHbfwGJ9wED2c1vowDOaGq52B1jiu4RF+
@@ -187,6 +187,6 @@
 </value>
   </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>90</value>
+    <value>25</value>
   </metadata>
 </root>
