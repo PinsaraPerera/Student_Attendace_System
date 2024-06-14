@@ -23,7 +23,9 @@ namespace DashBord
         Class1.Rootobject obj;
         private void button1_Click(object sender, EventArgs e)
         {
-            getData();
+            string teacher_Id = textBox2.Text;
+
+            Console.WriteLine("Teacher ID: " + teacher_Id);
         }
 
         private void getData()
@@ -54,14 +56,14 @@ namespace DashBord
                         var dataList = new List<Class1.Data> { obj.data };
                         //MessageBox.Show("Data Fetched Successfully");
                         // textBox1.Text = obj.data.employee_name;
-                        if (!string.IsNullOrEmpty(obj.data.student_name))
+                        /*if (!string.IsNullOrEmpty(obj.data.student_name))
                         {
-                            richTextBox1.Text = obj.data.student_name;
+                           
                         }
                         else
                         {
-                            richTextBox1.Text = "Student name is not available";
-                        }
+
+                        }*/
                         //textBox3.Text = obj.data.employee_age.ToString();
                     }
                     else
@@ -81,15 +83,7 @@ namespace DashBord
             }*/
         }
 
-        private void panel1_Paint_1(object sender, PaintEventArgs e)
-        {
 
-        }
-
-        private void AddTeacher_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        
     }
 }

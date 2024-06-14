@@ -67,8 +67,8 @@ namespace DashBord
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.notifyIcon2 = new System.Windows.Forms.NotifyIcon(this.components);
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.addTeacher1 = new DashBord.AddTeacher();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.addTeacher1 = new DashBord.AddTeacher();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -333,16 +333,6 @@ namespace DashBord
             this.notifyIcon2.Text = "notifyIcon2";
             this.notifyIcon2.Visible = true;
             // 
-            // addTeacher1
-            // 
-            this.addTeacher1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.addTeacher1.ForeColor = System.Drawing.Color.White;
-            this.addTeacher1.Location = new System.Drawing.Point(0, 0);
-            this.addTeacher1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.addTeacher1.Name = "addTeacher1";
-            this.addTeacher1.Size = new System.Drawing.Size(1485, 842);
-            this.addTeacher1.TabIndex = 0;
-            // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 3;
@@ -360,6 +350,16 @@ namespace DashBord
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1920, 954);
             this.tableLayoutPanel1.TabIndex = 12;
+            // 
+            // addTeacher1
+            // 
+            this.addTeacher1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addTeacher1.ForeColor = System.Drawing.Color.White;
+            this.addTeacher1.Location = new System.Drawing.Point(0, 0);
+            this.addTeacher1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addTeacher1.Name = "addTeacher1";
+            this.addTeacher1.Size = new System.Drawing.Size(1485, 842);
+            this.addTeacher1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -470,7 +470,7 @@ namespace DashBord
                 notifyIcon1.Visible = true;
                 notifyIcon1.ShowBalloonTip(1000);
                 this.ShowInTaskbar = false;
-            }*/   
+            }*/
         }
 
         private void addLecture1_Load(object sender, EventArgs e)

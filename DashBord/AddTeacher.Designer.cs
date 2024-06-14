@@ -62,7 +62,6 @@ namespace DashBord
             this.rootobjectBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.back_btn = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rootobjectBindingSource)).BeginInit();
@@ -331,21 +330,11 @@ namespace DashBord
             this.button4.Text = "Bulk Delete\r\n";
             this.button4.UseVisualStyleBackColor = false;
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(140, 406);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(631, 306);
-            this.richTextBox1.TabIndex = 16;
-            this.richTextBox1.Text = "";
-          //  this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
-            // 
             // AddTeacher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.back_btn);
             this.Controls.Add(this.dataGridView1);
@@ -363,7 +352,6 @@ namespace DashBord
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AddTeacher";
             this.Size = new System.Drawing.Size(1485, 842);
-            this.Load += new System.EventHandler(this.AddTeacher_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -403,7 +391,6 @@ namespace DashBord
         private EventHandler button5_Click;
         private EventHandler AddLecture_Load;
         private Button button4;
-        private RichTextBox richTextBox1;
         private BindingSource rootobjectBindingSource;
         private DataGridViewTextBoxColumn statusDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn dataDataGridViewTextBoxColumn;
