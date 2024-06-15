@@ -48,7 +48,7 @@ namespace DashBord
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.setting_btn = new System.Windows.Forms.Button();
+            this.Add_Faculty_btn = new System.Windows.Forms.Button();
             this.report_btn = new System.Windows.Forms.Button();
             this.leture_btn = new System.Windows.Forms.Button();
             this.add_teacher_btn = new System.Windows.Forms.Button();
@@ -60,6 +60,8 @@ namespace DashBord
             this.addLecture1 = new DashBord.AddLecture();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.logo_pic_box = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -71,13 +73,16 @@ namespace DashBord
             this.addTeacher1 = new DashBord.AddTeacher();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logo_pic_box)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
-            this.panel1.Controls.Add(this.setting_btn);
+            this.panel1.Controls.Add(this.Add_Faculty_btn);
             this.panel1.Controls.Add(this.report_btn);
             this.panel1.Controls.Add(this.leture_btn);
             this.panel1.Controls.Add(this.add_teacher_btn);
@@ -89,31 +94,31 @@ namespace DashBord
             this.panel1.Controls.Add(this.addLecture1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
-            this.panel1.Location = new System.Drawing.Point(0, 126);
+            this.panel1.Location = new System.Drawing.Point(0, 132);
             this.panel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1920, 954);
+            this.panel1.Size = new System.Drawing.Size(1920, 948);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // setting_btn
+            // Add_Faculty_btn
             // 
-            this.setting_btn.AccessibleName = "setting_btn";
-            this.setting_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
-            this.setting_btn.FlatAppearance.BorderSize = 0;
-            this.setting_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.setting_btn.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.setting_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
-            this.setting_btn.Image = ((System.Drawing.Image)(resources.GetObject("setting_btn.Image")));
-            this.setting_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.setting_btn.Location = new System.Drawing.Point(59, 498);
-            this.setting_btn.Margin = new System.Windows.Forms.Padding(5);
-            this.setting_btn.Name = "setting_btn";
-            this.setting_btn.Size = new System.Drawing.Size(254, 83);
-            this.setting_btn.TabIndex = 7;
-            this.setting_btn.Text = "Settings";
-            this.setting_btn.UseVisualStyleBackColor = false;
-            this.setting_btn.Click += new System.EventHandler(this.setting_btn_Click);
+            this.Add_Faculty_btn.AccessibleName = "add_faculty_btn";
+            this.Add_Faculty_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
+            this.Add_Faculty_btn.FlatAppearance.BorderSize = 0;
+            this.Add_Faculty_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Add_Faculty_btn.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Add_Faculty_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
+            this.Add_Faculty_btn.Image = ((System.Drawing.Image)(resources.GetObject("Add_Faculty_btn.Image")));
+            this.Add_Faculty_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Add_Faculty_btn.Location = new System.Drawing.Point(59, 322);
+            this.Add_Faculty_btn.Margin = new System.Windows.Forms.Padding(5);
+            this.Add_Faculty_btn.Name = "Add_Faculty_btn";
+            this.Add_Faculty_btn.Size = new System.Drawing.Size(309, 83);
+            this.Add_Faculty_btn.TabIndex = 7;
+            this.Add_Faculty_btn.Text = "Add Faculty";
+            this.Add_Faculty_btn.UseVisualStyleBackColor = false;
+            this.Add_Faculty_btn.Click += new System.EventHandler(this.setting_btn_Click);
             // 
             // report_btn
             // 
@@ -125,10 +130,10 @@ namespace DashBord
             this.report_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
             this.report_btn.Image = ((System.Drawing.Image)(resources.GetObject("report_btn.Image")));
             this.report_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.report_btn.Location = new System.Drawing.Point(59, 410);
+            this.report_btn.Location = new System.Drawing.Point(59, 492);
             this.report_btn.Margin = new System.Windows.Forms.Padding(0);
             this.report_btn.Name = "report_btn";
-            this.report_btn.Size = new System.Drawing.Size(254, 83);
+            this.report_btn.Size = new System.Drawing.Size(261, 83);
             this.report_btn.TabIndex = 4;
             this.report_btn.Text = "Reports";
             this.report_btn.UseVisualStyleBackColor = false;
@@ -144,10 +149,10 @@ namespace DashBord
             this.leture_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
             this.leture_btn.Image = ((System.Drawing.Image)(resources.GetObject("leture_btn.Image")));
             this.leture_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.leture_btn.Location = new System.Drawing.Point(59, 322);
+            this.leture_btn.Location = new System.Drawing.Point(59, 404);
             this.leture_btn.Margin = new System.Windows.Forms.Padding(5);
             this.leture_btn.Name = "leture_btn";
-            this.leture_btn.Size = new System.Drawing.Size(322, 83);
+            this.leture_btn.Size = new System.Drawing.Size(326, 83);
             this.leture_btn.TabIndex = 5;
             this.leture_btn.Text = "Lecture Scheduling";
             this.leture_btn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -186,7 +191,7 @@ namespace DashBord
             this.add_student_btn.Location = new System.Drawing.Point(59, 170);
             this.add_student_btn.Margin = new System.Windows.Forms.Padding(5);
             this.add_student_btn.Name = "add_student_btn";
-            this.add_student_btn.Size = new System.Drawing.Size(339, 66);
+            this.add_student_btn.Size = new System.Drawing.Size(322, 66);
             this.add_student_btn.TabIndex = 3;
             this.add_student_btn.Text = "Add Student\r\n\r\n";
             this.add_student_btn.UseVisualStyleBackColor = false;
@@ -216,7 +221,7 @@ namespace DashBord
             // 
             this.addTeacher.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.addTeacher.ForeColor = System.Drawing.Color.White;
-            this.addTeacher.Location = new System.Drawing.Point(440, 0);
+            this.addTeacher.Location = new System.Drawing.Point(450, 7);
             this.addTeacher.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.addTeacher.Name = "addTeacher";
             this.addTeacher.Size = new System.Drawing.Size(1480, 943);
@@ -274,25 +279,45 @@ namespace DashBord
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1920, 126);
+            this.panel2.Size = new System.Drawing.Size(1920, 132);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(235)))), ((int)(((byte)(218)))));
+            this.panel3.Controls.Add(this.logo_pic_box);
+            this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(443, 135);
+            this.panel3.Size = new System.Drawing.Size(443, 169);
             this.panel3.TabIndex = 6;
+            // 
+            // logo_pic_box
+            // 
+            this.logo_pic_box.Image = ((System.Drawing.Image)(resources.GetObject("logo_pic_box.Image")));
+            this.logo_pic_box.Location = new System.Drawing.Point(37, 0);
+            this.logo_pic_box.Name = "logo_pic_box";
+            this.logo_pic_box.Size = new System.Drawing.Size(358, 154);
+            this.logo_pic_box.TabIndex = 12;
+            this.logo_pic_box.TabStop = false;
+            this.logo_pic_box.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(5, -6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(8, 8);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.Location = new System.Drawing.Point(1669, 21);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(1679, 32);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(71, 73);
+            this.pictureBox2.Size = new System.Drawing.Size(74, 59);
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
@@ -341,14 +366,14 @@ namespace DashBord
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33F));
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 126);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 132);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1920, 954);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1920, 948);
             this.tableLayoutPanel1.TabIndex = 12;
             // 
             // addTeacher1
@@ -377,6 +402,9 @@ namespace DashBord
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.logo_pic_box)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -394,7 +422,7 @@ namespace DashBord
         private System.Windows.Forms.Button add_student_btn;
         private System.Windows.Forms.Button add_teacher_btn;
         private System.Windows.Forms.Button leture_btn;
-        private System.Windows.Forms.Button setting_btn;
+        private System.Windows.Forms.Button Add_Faculty_btn;
         private System.Windows.Forms.Button log_out_btn;
         private System.Windows.Forms.Button report_btn;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
@@ -406,6 +434,8 @@ namespace DashBord
         private STudent sTudent1;
         private AddTeacher addTeacher;
         private Panel panel3;
+        private PictureBox pictureBox1;
+        private PictureBox logo_pic_box;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
 
         private void dashbord_btn_Click(object sender, EventArgs e)
@@ -494,6 +524,11 @@ namespace DashBord
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }

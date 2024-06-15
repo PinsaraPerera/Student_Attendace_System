@@ -14,6 +14,7 @@ namespace DashBord
 {
     public partial class STudent : UserControl
     {
+        private List<StudentData> students = new List<StudentData>();
         public STudent()
         {
             InitializeComponent();
@@ -48,19 +49,22 @@ namespace DashBord
             }
             return new List<StudentData>();
         }
+        private async void STudent_Load(object sender, EventArgs e)
+        {
+            students = await Get();
+            dataGridView1.DataSource = students;
+        }
 
         private async void search_btn_Click(object sender, EventArgs e)
         {
-            string student_Id = textBox2.Text;
+            string student_Id = search_txtBox.Text;
 
             Console.WriteLine("Student ID: " + student_Id);
 
+            var filteredStudents = students.Where(s => s.student_no.Equals(student_Id, StringComparison.OrdinalIgnoreCase)).ToList();
+            dataGridView1.DataSource = filteredStudents;
+
             //     var respone = await Post(student_Id);
-        }
-        private async void STudent_Load(object sender, EventArgs e)
-        {
-            var students = await Get();
-            dataGridView1.DataSource = students;
         }
         public class StudentData
         {
@@ -75,6 +79,49 @@ namespace DashBord
                 public int starting_yr { get; set; }
         }
 
-        
+       
+
+        private void search_txtBox_Enter(object sender, EventArgs e)
+        {
+            if(search_txtBox.Text == "cs_2020_005")
+            {
+                search_txtBox.Text = "";
+                search_txtBox.ForeColor = Color.Black;
+                search_txtBox.Font = new Font(search_txtBox.Font, FontStyle.Regular);
+
+            }
+        }
+
+        private void search_txtBox_Leave(object sender, EventArgs e)
+        {
+            if(search_txtBox.Text == "")
+            {
+                search_txtBox.Text = "CS_2020_005";
+                search_txtBox.ForeColor = Color.Silver;
+                search_txtBox.Font = new Font(search_txtBox.Font, FontStyle.Italic);
+            }
+        }
+
+        private void search_txtBox_TextChanged(object sender, EventArgs e)
+        {
+            
+            
+        }
+
+        private void showAll_btn_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = students;
+            search_txtBox.Text = string.Empty;
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
