@@ -124,26 +124,11 @@
   <data name="icons8-student-48 (2) - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\icons8-student-48 (2) - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Student Attendance System (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Student Attendance System (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Student Attendance System (1)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Student Attendance System (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Student Attendance System" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Student Attendance System.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Student Attendance System (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Student Attendance System (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icons8-setting-50 (1) - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\icons8-setting-50 (1) - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Student Attendance System_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\Student Attendance System_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-setting-100 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\icons8-setting-100 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-student-48 (2) - Copy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\icons8-student-48 (2) - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,14 +145,8 @@
   <data name="icons8-setting-1001" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\icons8-setting-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Student Attendance System (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Student Attendance System (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icons8-meeting-room-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\icons8-meeting-room-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Student Attendance System_img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Student Attendance System_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-teacher" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\pic\icons8-teacher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

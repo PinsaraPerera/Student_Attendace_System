@@ -1,6 +1,9 @@
-﻿namespace DashBord
+﻿using System;
+using System.Windows.Forms;
+
+namespace DashBord
 {
-    partial class AddLecture
+    partial class AddTeacher
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,7 +32,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddLecture));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddTeacher));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -45,9 +48,9 @@
             this.directorySearcher4 = new System.DirectoryServices.DirectorySearcher();
             this.directorySearcher5 = new System.DirectoryServices.DirectorySearcher();
             this.directorySearcher6 = new System.DirectoryServices.DirectorySearcher();
-            this.search_btn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.search_txtBox = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -56,12 +59,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.rootobjectBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.back_btn = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.showAll_btn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rootobjectBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,9 +84,9 @@
             // create_lecture_btn
             // 
             this.create_lecture_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
-            this.create_lecture_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("create_lecture_btn.BackgroundImage")));
             this.create_lecture_btn.FlatAppearance.BorderSize = 0;
             this.create_lecture_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.create_lecture_btn.Image = ((System.Drawing.Image)(resources.GetObject("create_lecture_btn.Image")));
             this.create_lecture_btn.Location = new System.Drawing.Point(21, 4);
             this.create_lecture_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.create_lecture_btn.Name = "create_lecture_btn";
@@ -96,9 +101,9 @@
             this.lecture_lb.ForeColor = System.Drawing.Color.White;
             this.lecture_lb.Location = new System.Drawing.Point(136, 2);
             this.lecture_lb.Name = "lecture_lb";
-            this.lecture_lb.Size = new System.Drawing.Size(487, 42);
+            this.lecture_lb.Size = new System.Drawing.Size(383, 42);
             this.lecture_lb.TabIndex = 1;
-            this.lecture_lb.Text = "CREATE A NEW LECTURE";
+            this.lecture_lb.Text = "ADD NEW TEACHER";
             // 
             // directorySearcher1
             // 
@@ -136,19 +141,19 @@
             this.directorySearcher6.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
             this.directorySearcher6.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
             // 
-            // search_btn
+            // button1
             // 
-            this.search_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
-            this.search_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.search_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.search_btn.Location = new System.Drawing.Point(595, 133);
-            this.search_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.search_btn.Name = "search_btn";
-            this.search_btn.Size = new System.Drawing.Size(176, 38);
-            this.search_btn.TabIndex = 2;
-            this.search_btn.Text = "Search Subject\r\n";
-            this.search_btn.UseVisualStyleBackColor = false;
-            this.search_btn.Click += new System.EventHandler(this.search_btn_Click);
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(595, 133);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(176, 38);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Search Teacher";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -160,14 +165,14 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // search_txtBox
+            // textBox2
             // 
-            this.search_txtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.search_txtBox.Location = new System.Drawing.Point(28, 133);
-            this.search_txtBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.search_txtBox.Name = "search_txtBox";
-            this.search_txtBox.Size = new System.Drawing.Size(529, 38);
-            this.search_txtBox.TabIndex = 4;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(28, 133);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(529, 38);
+            this.textBox2.TabIndex = 4;
             // 
             // contextMenuStrip1
             // 
@@ -239,18 +244,9 @@
             this.button3.Text = "Filter";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // rootobjectBindingSource
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(1261, 247);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(176, 38);
-            this.button4.TabIndex = 12;
-            this.button4.Text = "Bulk Delete\r\n\r\n";
-            this.button4.UseVisualStyleBackColor = false;
+            this.rootobjectBindingSource.DataSource = typeof(ClassLibrary2.Class1.Rootobject);
             // 
             // back_btn
             // 
@@ -264,6 +260,19 @@
             this.back_btn.Size = new System.Drawing.Size(108, 42);
             this.back_btn.TabIndex = 14;
             this.back_btn.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(28, 784);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(150, 33);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "Bulk Delete\r\n";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // dataGridView2
             // 
@@ -286,7 +295,7 @@
             this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn1});
+            this.Column1});
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.ButtonFace;
             dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -315,30 +324,30 @@
             this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(1409, 428);
-            this.dataGridView2.TabIndex = 15;
+            this.dataGridView2.Size = new System.Drawing.Size(1149, 428);
+            this.dataGridView2.TabIndex = 16;
             // 
-            // dataGridViewCheckBoxColumn1
+            // Column1
             // 
-            this.dataGridViewCheckBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.LightGray;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.NullValue = false;
-            this.dataGridViewCheckBoxColumn1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridViewCheckBoxColumn1.HeaderText = "";
-            this.dataGridViewCheckBoxColumn1.MinimumWidth = 10;
-            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
-            this.dataGridViewCheckBoxColumn1.ReadOnly = true;
-            this.dataGridViewCheckBoxColumn1.Width = 30;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle3;
+            this.Column1.HeaderText = "";
+            this.Column1.MinimumWidth = 10;
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 30;
             // 
             // showAll_btn
             // 
             this.showAll_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(22)))), ((int)(((byte)(13)))));
             this.showAll_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.showAll_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showAll_btn.Location = new System.Drawing.Point(787, 133);
+            this.showAll_btn.Location = new System.Drawing.Point(795, 133);
             this.showAll_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.showAll_btn.Name = "showAll_btn";
             this.showAll_btn.Size = new System.Drawing.Size(49, 38);
@@ -347,30 +356,32 @@
             this.showAll_btn.UseVisualStyleBackColor = false;
             this.showAll_btn.Click += new System.EventHandler(this.showAll_btn_Click);
             // 
-            // AddLecture
+            // AddTeacher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Controls.Add(this.showAll_btn);
-            this.Controls.Add(this.back_btn);
             this.Controls.Add(this.button4);
+            this.Controls.Add(this.back_btn);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.search_txtBox);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.search_btn);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView2);
             this.ForeColor = System.Drawing.Color.White;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "AddLecture";
+            this.Name = "AddTeacher";
             this.Size = new System.Drawing.Size(1485, 842);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rootobjectBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -387,9 +398,9 @@
         private System.DirectoryServices.DirectorySearcher directorySearcher4;
         private System.DirectoryServices.DirectorySearcher directorySearcher5;
         private System.DirectoryServices.DirectorySearcher directorySearcher6;
-        private System.Windows.Forms.Button search_btn;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox search_txtBox;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.ComboBox comboBox1;
@@ -398,11 +409,17 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button back_btn;
         private System.Windows.Forms.Button create_lecture_btn;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
-        private System.Windows.Forms.Button showAll_btn;
+        private PaintEventHandler panel1_Paint;
+        private EventHandler create_lecture_btn_Click;
+        private EventHandler lecture_lb_Click;
+        private EventHandler button5_Click;
+        private EventHandler AddLecture_Load;
+        private Button button4;
+        private BindingSource rootobjectBindingSource;
+        private DataGridView dataGridView2;
+        private DataGridViewCheckBoxColumn Column1;
+        private Button showAll_btn;
     }
 }
