@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AddNewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddNewTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddNewSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreateNewLecture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TeacherUpdatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LectureUpdatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateLecture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SubjectUpdatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LectureCreatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SubjectAddedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StudentAddedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StudentUpdatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TeacherAddedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FacultyAddedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FacultyUpdatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

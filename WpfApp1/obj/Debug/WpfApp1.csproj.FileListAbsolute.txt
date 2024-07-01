@@ -1,0 +1,78 @@
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\RestSharp.dll
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Text.Json.dll
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.ValueTuple.dll
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\RestSharp.xml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Text.Json.xml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\bin\Debug\System.ValueTuple.xml
+C:\Users\oshad\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.Up2Date
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\RestSharp.dll
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Text.Encodings.Web.dll
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Text.Json.dll
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.ValueTuple.dll
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\RestSharp.xml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Text.Encodings.Web.xml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Text.Json.xml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\bin\Debug\System.ValueTuple.xml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\App.baml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.Up2Date
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Git projects\VisualProgrammingProject\C# front end\WpfApp1 (2)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

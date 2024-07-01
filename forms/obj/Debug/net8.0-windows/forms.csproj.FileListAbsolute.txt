@@ -1,0 +1,76 @@
+C:\Users\User\Desktop\forms\forms\forms\bin\Debug\net8.0-windows\forms.exe
+C:\Users\User\Desktop\forms\forms\forms\bin\Debug\net8.0-windows\forms.deps.json
+C:\Users\User\Desktop\forms\forms\forms\bin\Debug\net8.0-windows\forms.runtimeconfig.json
+C:\Users\User\Desktop\forms\forms\forms\bin\Debug\net8.0-windows\forms.dll
+C:\Users\User\Desktop\forms\forms\forms\bin\Debug\net8.0-windows\forms.pdb
+C:\Users\User\Desktop\forms\forms\forms\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.AddFaculty.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.AddNewStudent.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.AddNewSubject.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.AddNewTeacher.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.CreateNewLecture.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.FacultyAddedPopUp.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.FacultyUpdatedPopUp.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.LectureCreatedPopUp.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.LectureUpdatedPopUp.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.StudentAddedPopUp.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.StudentUpdatedPopUp.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.SubjectAddedPopUp.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.SubjectUpdatedPopUp.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.TeacherAddedPopUp.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.TeacherUpdatedPopUp.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.UpdateFaculty.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.UpdateLecture.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.UpdateStudent.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.UpdateSubject.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.UpdateTeacher.resources
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.csproj.GenerateResource.cache
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.AssemblyInfo.cs
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.csproj.Up2Date
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.dll
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\refint\forms.dll
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.pdb
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\forms.genruntimeconfig.cache
+C:\Users\User\Desktop\forms\forms\forms\obj\Debug\net8.0-windows\ref\forms.dll
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\bin\Debug\net8.0-windows\forms.exe
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\bin\Debug\net8.0-windows\forms.deps.json
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\bin\Debug\net8.0-windows\forms.runtimeconfig.json
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\bin\Debug\net8.0-windows\forms.dll
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\bin\Debug\net8.0-windows\forms.pdb
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.csproj.AssemblyReference.cache
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.AddFaculty.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.AddNewStudent.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.AddNewSubject.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.AddNewTeacher.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.CreateNewLecture.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.FacultyAddedPopUp.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.FacultyUpdatedPopUp.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.LectureCreatedPopUp.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.LectureUpdatedPopUp.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.StudentAddedPopUp.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.StudentUpdatedPopUp.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.SubjectAddedPopUp.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.SubjectUpdatedPopUp.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\StudentsManagementSystemForm.TeacherAddedPopUp.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.TeacherUpdatedPopUp.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.UpdateFaculty.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.UpdateLecture.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.UpdateStudent.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.UpdateSubject.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.UpdateTeacher.resources
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.csproj.GenerateResource.cache
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.AssemblyInfoInputs.cache
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.AssemblyInfo.cs
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.csproj.CoreCompileInputs.cache
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.csproj.Up2Date
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.dll
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\refint\forms.dll
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.pdb
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\forms.genruntimeconfig.cache
+D:\Git projects\VisualProgrammingProject\C# front end\forms\forms\forms\obj\Debug\net8.0-windows\ref\forms.dll
