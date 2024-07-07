@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6002F424-115C-499F-A090-A56B524FF8F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Student_Attendace_System</RootNamespace>
+    <AssemblyName>Student_Attendace_System</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=111.3.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>packages\RestSharp.111.3.0\lib\net48\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=8.0.0.3, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Json.8.0.3\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dashbord\AddStudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashbord\AddStudent.Designer.cs">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashbord\AddTeacher.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashbord\AddTeacher.Designer.cs">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashbord\AddLecture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashbord\AddLecture.Designer.cs">
+      <DependentUpon>AddLecture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashbord\Dashbord_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashbord\Dashbord_window.Designer.cs">
+      <DependentUpon>Dashbord_window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashbord\Home_panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashbord\Home_panel.Designer.cs">
+      <DependentUpon>Home_panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_form\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_form\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_form\Share\Api.cs" />
+    <Compile Include="PopUpForms\AddFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\AddFaculty.Designer.cs">
+      <DependentUpon>AddFaculty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\AddNewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\AddNewStudent.Designer.cs">
+      <DependentUpon>AddNewStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\AddNewSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\AddNewSubject.Designer.cs">
+      <DependentUpon>AddNewSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\AddNewTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\AddNewTeacher.Designer.cs">
+      <DependentUpon>AddNewTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\CreateNewLecture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\CreateNewLecture.Designer.cs">
+      <DependentUpon>CreateNewLecture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\FacultyAddedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\FacultyAddedPopUp.Designer.cs">
+      <DependentUpon>FacultyAddedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\FacultyUpdatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\FacultyUpdatedPopUp.Designer.cs">
+      <DependentUpon>FacultyUpdatedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\LectureCreatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\LectureCreatedPopUp.Designer.cs">
+      <DependentUpon>LectureCreatedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\LectureUpdatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\LectureUpdatedPopUp.Designer.cs">
+      <DependentUpon>LectureUpdatedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\shared\APIHelper.cs" />
+    <Compile Include="PopUpForms\StudentAddedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\StudentAddedPopUp.Designer.cs">
+      <DependentUpon>StudentAddedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\StudentUpdatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\StudentUpdatedPopUp.Designer.cs">
+      <DependentUpon>StudentUpdatedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\SubjectAddedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\SubjectAddedPopUp.Designer.cs">
+      <DependentUpon>SubjectAddedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\SubjectUpdatedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\SubjectUpdatedPopUp.Designer.cs">
+      <DependentUpon>SubjectUpdatedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\TeacherAddedPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\TeacherAddedPopUp.Designer.cs">
+      <DependentUpon>TeacherAddedPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\TeacherUpdatePopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\TeacherUpdatePopUp.Designer.cs">
+      <DependentUpon>TeacherUpdatePopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\UpdateFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\UpdateFaculty.Designer.cs">
+      <DependentUpon>UpdateFaculty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\UpdateLecture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\UpdateLecture.Designer.cs">
+      <DependentUpon>UpdateLecture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\UpdateStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\UpdateStudent.Designer.cs">
+      <DependentUpon>UpdateStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\UpdateSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\UpdateSubject.Designer.cs">
+      <DependentUpon>UpdateSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpForms\UpdateTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpForms\UpdateTeacher.Designer.cs">
+      <DependentUpon>UpdateTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dashbord\AddLecture.resx">
+      <DependentUpon>AddLecture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashbord\AddStudent.resx">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashbord\AddTeacher.resx">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashbord\Dashbord_window.resx">
+      <DependentUpon>Dashbord_window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashbord\Home_panel.resx">
+      <DependentUpon>Home_panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_form\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpForms\AddFaculty.resx">
+      <DependentUpon>AddFaculty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpForms\AddNewStudent.resx">
+      <DependentUpon>AddNewStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpForms\AddNewSubject.resx">
+      <DependentUpon>AddNewSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpForms\AddNewTeacher.resx">
+      <DependentUpon>AddNewTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpForms\CreateNewLecture.resx">
+      <DependentUpon>CreateNewLecture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpForms\FacultyAddedPopUp.resx">
+      <DependentUpon>FacultyAddedPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpForms\UpdateFaculty.resx">
+      <DependentUpon>UpdateFaculty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpForms\UpdateLecture.resx">
+      <DependentUpon>UpdateLecture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpForms\UpdateStudent.resx">
+      <DependentUpon>UpdateStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpForms\UpdateSubject.resx">
+      <DependentUpon>UpdateSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpForms\UpdateTeacher.resx">
+      <DependentUpon>UpdateTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Dashbord\static\Inter-Black.ttf" />
+    <None Include="Dashbord\static\Inter-Bold.ttf" />
+    <None Include="Dashbord\static\Inter-ExtraBold.ttf" />
+    <None Include="Dashbord\static\Inter-ExtraLight.ttf" />
+    <None Include="Dashbord\static\Inter-Light.ttf" />
+    <None Include="Dashbord\static\Inter-Medium.ttf" />
+    <None Include="Dashbord\static\Inter-Regular.ttf" />
+    <None Include="Dashbord\static\Inter-SemiBold.ttf" />
+    <None Include="Dashbord\static\Inter-Thin.ttf" />
+    <None Include="Dashbord\static\SofiaSans-Black.ttf" />
+    <None Include="Dashbord\static\SofiaSans-BlackItalic.ttf" />
+    <None Include="Dashbord\static\SofiaSans-Bold.ttf" />
+    <None Include="Dashbord\static\SofiaSans-BoldItalic.ttf" />
+    <None Include="Dashbord\static\SofiaSans-ExtraBold.ttf" />
+    <None Include="Dashbord\static\SofiaSans-ExtraBoldItalic.ttf" />
+    <None Include="Dashbord\static\SofiaSans-ExtraLight.ttf" />
+    <None Include="Dashbord\static\SofiaSans-ExtraLightItalic.ttf" />
+    <None Include="Dashbord\static\SofiaSans-Italic.ttf" />
+    <None Include="Dashbord\static\SofiaSans-Light.ttf" />
+    <None Include="Dashbord\static\SofiaSans-LightItalic.ttf" />
+    <None Include="Dashbord\static\SofiaSans-Medium.ttf" />
+    <None Include="Dashbord\static\SofiaSans-MediumItalic.ttf" />
+    <None Include="Dashbord\static\SofiaSans-Regular.ttf" />
+    <None Include="Dashbord\static\SofiaSans-SemiBold.ttf" />
+    <None Include="Dashbord\static\SofiaSans-SemiBoldItalic.ttf" />
+    <None Include="Dashbord\static\SofiaSans-Thin.ttf" />
+    <None Include="Dashbord\static\SofiaSans-ThinItalic.ttf" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Dashbord\img\icons8-back-30.png" />
+    <Content Include="Dashbord\img\icons8-list-50.png" />
+    <Content Include="Dashbord\img\icons8-logout-64 %281%29 - Copy.png" />
+    <Content Include="Dashbord\img\icons8-meeting-room-100.png" />
+    <Content Include="Dashbord\img\icons8-reports-58 - Copy.png" />
+    <Content Include="Dashbord\img\icons8-search-50 %282%29.png" />
+    <Content Include="Dashbord\img\icons8-setting-100.png" />
+    <Content Include="Dashbord\img\icons8-setting-50 %281%29 - Copy.png" />
+    <Content Include="Dashbord\img\icons8-setting-70.png" />
+    <Content Include="Dashbord\img\icons8-student-48 %282%29 - Copy.png" />
+    <Content Include="Dashbord\img\icons8-teacher-50 - Copy.png" />
+    <Content Include="Dashbord\img\logo.png" />
+    <Content Include="Dashbord\img\log_final.png" />
+    <Content Include="Dashbord\img\pic\icons8-dashboard-48.png" />
+    <Content Include="Dashbord\img\pic\icons8-logout.png" />
+    <Content Include="Dashbord\img\pic\icons8-meeting-room-100.png" />
+    <Content Include="Dashbord\img\pic\icons8-reports.png" />
+    <Content Include="Dashbord\img\pic\icons8-setting-100.png" />
+    <Content Include="Dashbord\img\pic\icons8-setting.png" />
+    <Content Include="Dashbord\img\pic\icons8-student.png" />
+    <Content Include="Dashbord\img\pic\icons8-teacher.png" />
+    <Content Include="Dashbord\img\pic\school.png" />
+    <Content Include="Dashbord\img\pic\Student Attendance System_img.png" />
+    <Content Include="Dashbord\img\Student Attendance System_img.png" />
+    <Content Include="Login_form\images\back.jpg" />
+    <Content Include="Login_form\images\cross.png" />
+    <Content Include="Login_form\images\envelope.png" />
+    <Content Include="Login_form\images\facebook1.png" />
+    <Content Include="Login_form\images\google1.png" />
+    <Content Include="Login_form\images\linkedin1.png" />
+    <Content Include="Login_form\images\lock.png" />
+    <Content Include="Login_form\images\university-of-kelaniya-logo.png" />
+    <None Include="Resources\close1.png" />
+    <None Include="Resources\yes.png" />
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
