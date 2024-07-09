@@ -79,8 +79,6 @@ namespace Student_Attendace_System.Dashbord
             public int starting_yr { get; set; }
         }
 
-
-
         private void search_txtBox_Enter(object sender, EventArgs e)
         {
             if (search_txtBox.Text == "cs_2020_005")
