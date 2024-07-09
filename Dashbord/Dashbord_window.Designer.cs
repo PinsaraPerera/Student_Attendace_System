@@ -35,9 +35,6 @@ namespace Student_Attendace_System.Dashbord
             this.uniLb = new System.Windows.Forms.Label();
             this.dashbord_btn = new System.Windows.Forms.Button();
             this.log_out_btn = new System.Windows.Forms.Button();
-            this.addTeacher2 = new Student_Attendace_System.Dashbord.AddTeacher();
-            this.addStudent1 = new Student_Attendace_System.Dashbord.AddStudent();
-            this.addLecture2 = new Student_Attendace_System.Dashbord.AddLecture();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -51,11 +48,14 @@ namespace Student_Attendace_System.Dashbord
             this.logo_pic_box = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            this.addTeacher2 = new Student_Attendace_System.Dashbord.AddTeacher();
+            this.addStudent1 = new Student_Attendace_System.Dashbord.AddStudent();
+            this.addLecture2 = new Student_Attendace_System.Dashbord.AddLecture();
             this.addTeacher = new Student_Attendace_System.Dashbord.AddTeacher();
             this.sTudent1 = new Student_Attendace_System.Dashbord.AddStudent();
             this.addLecture1 = new Student_Attendace_System.Dashbord.AddLecture();
             this.addTeacher1 = new Student_Attendace_System.Dashbord.AddTeacher();
-            this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uniLogoPicBox)).BeginInit();
             this.panel4.SuspendLayout();
@@ -188,7 +188,7 @@ namespace Student_Attendace_System.Dashbord
             this.leture_btn.Location = new System.Drawing.Point(51, 614);
             this.leture_btn.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.leture_btn.Name = "leture_btn";
-            this.leture_btn.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.leture_btn.Padding = new System.Windows.Forms.Padding(0, 0, 11, 0);
             this.leture_btn.Size = new System.Drawing.Size(319, 66);
             this.leture_btn.TabIndex = 5;
             this.leture_btn.Text = "Lecture Scheduling";
@@ -283,18 +283,18 @@ namespace Student_Attendace_System.Dashbord
             this.dashbord_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
             this.dashbord_btn.FlatAppearance.BorderSize = 0;
             this.dashbord_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dashbord_btn.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashbord_btn.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashbord_btn.ForeColor = System.Drawing.Color.White;
             this.dashbord_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_dashboard_48;
             this.dashbord_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dashbord_btn.Location = new System.Drawing.Point(51, 255);
             this.dashbord_btn.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.dashbord_btn.Name = "dashbord_btn";
-            this.dashbord_btn.Padding = new System.Windows.Forms.Padding(4, 0, 33, 0);
+            this.dashbord_btn.Padding = new System.Windows.Forms.Padding(4, 6, 33, 6);
             this.dashbord_btn.Size = new System.Drawing.Size(319, 55);
             this.dashbord_btn.TabIndex = 2;
             this.dashbord_btn.Text = "Dashbord\r\n\r\n";
-            this.dashbord_btn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.dashbord_btn.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.dashbord_btn.UseVisualStyleBackColor = false;
             this.dashbord_btn.Click += new System.EventHandler(this.dashbord_btn_Click);
             // 
@@ -304,7 +304,7 @@ namespace Student_Attendace_System.Dashbord
             this.log_out_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(14)))), ((int)(((byte)(7)))));
             this.log_out_btn.FlatAppearance.BorderSize = 0;
             this.log_out_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.log_out_btn.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.log_out_btn.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.log_out_btn.ForeColor = System.Drawing.Color.White;
             this.log_out_btn.Image = global::Student_Attendace_System.Properties.Resources.icons8_logout;
             this.log_out_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -317,35 +317,6 @@ namespace Student_Attendace_System.Dashbord
             this.log_out_btn.Text = "Log out\r\n\r\n\r\n\r\n";
             this.log_out_btn.UseVisualStyleBackColor = false;
             this.log_out_btn.Click += new System.EventHandler(this.log_out_btn_Click);
-            // 
-            // addTeacher2
-            // 
-            this.addTeacher2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.addTeacher2.ForeColor = System.Drawing.Color.White;
-            this.addTeacher2.Location = new System.Drawing.Point(433, 134);
-            this.addTeacher2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.addTeacher2.Name = "addTeacher2";
-            this.addTeacher2.Size = new System.Drawing.Size(1485, 946);
-            this.addTeacher2.TabIndex = 12;
-            // 
-            // addStudent1
-            // 
-            this.addStudent1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.addStudent1.ForeColor = System.Drawing.Color.White;
-            this.addStudent1.Location = new System.Drawing.Point(435, 134);
-            this.addStudent1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.addStudent1.Name = "addStudent1";
-            this.addStudent1.Size = new System.Drawing.Size(1485, 946);
-            this.addStudent1.TabIndex = 11;
-            // 
-            // addLecture2
-            // 
-            this.addLecture2.ForeColor = System.Drawing.Color.White;
-            this.addLecture2.Location = new System.Drawing.Point(435, 134);
-            this.addLecture2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.addLecture2.Name = "addLecture2";
-            this.addLecture2.Size = new System.Drawing.Size(1485, 946);
-            this.addLecture2.TabIndex = 10;
             // 
             // panel5
             // 
@@ -437,6 +408,50 @@ namespace Student_Attendace_System.Dashbord
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
+            // guna2ContextMenuStrip1
+            // 
+            this.guna2ContextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.guna2ContextMenuStrip1.Name = "guna2ContextMenuStrip1";
+            this.guna2ContextMenuStrip1.RenderStyle.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.guna2ContextMenuStrip1.RenderStyle.BorderColor = System.Drawing.Color.Gainsboro;
+            this.guna2ContextMenuStrip1.RenderStyle.ColorTable = null;
+            this.guna2ContextMenuStrip1.RenderStyle.RoundedEdges = true;
+            this.guna2ContextMenuStrip1.RenderStyle.SelectionArrowColor = System.Drawing.Color.White;
+            this.guna2ContextMenuStrip1.RenderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.guna2ContextMenuStrip1.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.guna2ContextMenuStrip1.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
+            this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // addTeacher2
+            // 
+            this.addTeacher2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addTeacher2.ForeColor = System.Drawing.Color.White;
+            this.addTeacher2.Location = new System.Drawing.Point(433, 134);
+            this.addTeacher2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addTeacher2.Name = "addTeacher2";
+            this.addTeacher2.Size = new System.Drawing.Size(1485, 946);
+            this.addTeacher2.TabIndex = 12;
+            // 
+            // addStudent1
+            // 
+            this.addStudent1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addStudent1.ForeColor = System.Drawing.Color.White;
+            this.addStudent1.Location = new System.Drawing.Point(435, 134);
+            this.addStudent1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addStudent1.Name = "addStudent1";
+            this.addStudent1.Size = new System.Drawing.Size(1485, 946);
+            this.addStudent1.TabIndex = 11;
+            // 
+            // addLecture2
+            // 
+            this.addLecture2.ForeColor = System.Drawing.Color.White;
+            this.addLecture2.Location = new System.Drawing.Point(435, 134);
+            this.addLecture2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addLecture2.Name = "addLecture2";
+            this.addLecture2.Size = new System.Drawing.Size(1485, 946);
+            this.addLecture2.TabIndex = 10;
+            // 
             // addTeacher
             // 
             this.addTeacher.BackColor = System.Drawing.SystemColors.ButtonFace;
@@ -475,21 +490,6 @@ namespace Student_Attendace_System.Dashbord
             this.addTeacher1.Name = "addTeacher1";
             this.addTeacher1.Size = new System.Drawing.Size(1114, 684);
             this.addTeacher1.TabIndex = 0;
-            // 
-            // guna2ContextMenuStrip1
-            // 
-            this.guna2ContextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.guna2ContextMenuStrip1.Name = "guna2ContextMenuStrip1";
-            this.guna2ContextMenuStrip1.RenderStyle.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.guna2ContextMenuStrip1.RenderStyle.BorderColor = System.Drawing.Color.Gainsboro;
-            this.guna2ContextMenuStrip1.RenderStyle.ColorTable = null;
-            this.guna2ContextMenuStrip1.RenderStyle.RoundedEdges = true;
-            this.guna2ContextMenuStrip1.RenderStyle.SelectionArrowColor = System.Drawing.Color.White;
-            this.guna2ContextMenuStrip1.RenderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2ContextMenuStrip1.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.guna2ContextMenuStrip1.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
-            this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // Dashbord_window
             // 

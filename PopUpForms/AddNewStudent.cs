@@ -5,9 +5,12 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace Student_Attendace_System.PopUpForms
 {
@@ -16,6 +19,10 @@ namespace Student_Attendace_System.PopUpForms
         public AddNewStudent()
         {
             InitializeComponent();
+        }
+        public void Clear()
+        {
+            StNum.Text = stName.Text = dID.Text = specializationId.Text = emailAdd.Text = facultyName.Text = departmentName.Text = img.Text = startingYr.Text = "";
         }
         private async void button1_Click(object sender, EventArgs e)
         {
@@ -81,10 +88,44 @@ namespace Student_Attendace_System.PopUpForms
 
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private async void button1_Click_1(object sender, EventArgs e)
         {
-            var added = new StudentAddedPopUp();
-            added.Show();
+            string studentNumber = StNum.Text;
+            string studentName = stName.Text;
+            string degreeId = dID.Text;
+            string specializationID = specializationId.Text;
+            string email = emailAdd.Text;
+            string faculty = facultyName.Text;
+            string departmentId = departmentName.Text;
+            string image = img.Text;
+            string startingYear = startingYr.Text;
+
+            var response = await APIHelper.Post(studentNumber, studentName, degreeId, specializationID, email, faculty, departmentId, image, startingYear);
+
+            // Show the popup window
+            if (response == "SuccesFullyAdded")
+            {
+                var added = new StudentAddedPopUp();
+                added.Show();
+                Clear();
+
+            }
+            else
+            {
+                MessageBox.Show("Error adding student");
+            }
+           
         }
+
+        private void close_button2_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }

@@ -16,6 +16,21 @@ namespace Student_Attendace_System.Dashbord
     public partial class AddStudent : UserControl
     {
         private List<StudentData> students = new List<StudentData>();
+
+        private Dictionary<string, int> degreeMapping = new Dictionary<string, int>
+        {
+            { "Computer Science", 0 },
+            { "BICT", 1 },
+            { "ET", 2 }
+        };
+
+        private Dictionary<string, int> yearMapping = new Dictionary<string, int>
+        {
+            { "2019", 0 },
+            { "2020", 1 },
+            { "2021", 2 }
+        };
+
         public AddStudent()
         {
             InitializeComponent();
@@ -53,19 +68,8 @@ namespace Student_Attendace_System.Dashbord
         {
             students = await Get();
             dataGridView1.DataSource = students;
-        }
 
-        /*private  async void search_btn_Click(object sender, EventArgs e)
-        {
-            string student_Id = search_txtBox.Text;
-
-            Console.WriteLine("Student ID: " + student_Id);
-
-            var filteredStudents = students.Where(s => s.student_no.Equals(student_Id, StringComparison.OrdinalIgnoreCase)).ToList();
-            dataGridView1.DataSource = filteredStudents;
-
-            //     var respone = await Post(student_Id);
-        }*/
+        }    
         public class StudentData
         {
             public string student_no { get; set; }
@@ -130,7 +134,50 @@ namespace Student_Attendace_System.Dashbord
 
         private void back_btn_Click(object sender, EventArgs e)
         {
-            
+            var Dashbord = new Dashbord_window();
+            Dashbord.ShowHomePanel();
+            this.Visible = false;
+        }
+
+        private void  serch_btn_Click(object sender, EventArgs e)
+        {
+            string student_Id = search_txtBox.Text.Trim();
+
+            if (!string.IsNullOrEmpty(student_Id))
+            {
+                var filteredStudents = students.Where(s => s.student_no.Equals(student_Id, StringComparison.OrdinalIgnoreCase)).ToList();
+                dataGridView1.DataSource = filteredStudents;
+            }
+            else
+            {
+                // If search text is empty, show all students
+                dataGridView1.DataSource = students;
+            }
+
+        }
+
+        private void filterBtn_Click(object sender, EventArgs e)
+        {
+            string degree = comboBoxDegree.Text.Trim();
+            string academicYear = comboBoxAca_year.Text.Trim();
+
+            int degreeId;
+            int yearId;
+            bool isDegreeValid = degreeMapping.TryGetValue(degree, out degreeId);
+            bool isAcademicYearValid = yearMapping.TryGetValue(academicYear, out yearId);
+
+
+            if (isDegreeValid && isAcademicYearValid)
+            {
+                var filteredStudents = students.Where(s => s.degree_id.Equals(degreeId) && s.starting_yr.Equals(yearId)).ToList();
+                dataGridView1.DataSource = filteredStudents;
+            }
+            else
+            {
+                // If search text is invalide, show all students
+                dataGridView1.DataSource = students;
+            }
+
         }
     }
 }

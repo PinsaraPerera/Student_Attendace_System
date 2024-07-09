@@ -252,18 +252,19 @@ namespace StudentsManagementSystemForm.shared
 
 
         // Method to add a new student
-        public static async Task<string> Post(string studentNumber, string studentName, string degreeId, string specializationID, string email, string faculty, string departmentId, string image, string startingYear)
+        public static async Task<string> Post(string studentNumber, string studentName, string degreeId, string specializationID, string emailAddress, string facultyName, string departmentId, string image, string startingYear)
         {
             var inputData = new
             {
+                
                 student_no = studentNumber,
                 student_name = studentName,
                 degree_id = degreeId,
                 specialization_id = specializationID,
-                email = email,
-                faculty = faculty,
+                email= emailAddress,
+                faculty = facultyName,
                 department_id = departmentId,
-                image = image,
+                image_location = image,
                 starting_yr = startingYear
             };
             var json = JsonConvert.SerializeObject(inputData);
@@ -280,7 +281,7 @@ namespace StudentsManagementSystemForm.shared
                         res.EnsureSuccessStatusCode(); // Throw if not a success code.
                         string data = await res.Content.ReadAsStringAsync();
                         Console.WriteLine("Response: " + data);
-                        return data;
+                        return "SuccesFullyAdded";
                     }
                 }
                 catch (Exception ex)
@@ -294,14 +295,14 @@ namespace StudentsManagementSystemForm.shared
      
 
         // Method to add a new subject
-        public static async Task<string> Post(string lectureCode, string lectureName, string degree, string year)
+        public static async Task<string> Post(string lectureCode, string lectureName, string degree_, string year_)
         {
             var inputData = new
             {
                 subject_code = lectureCode,
                 subject_name = lectureName,
-                degree = degree,
-                year = year
+                degree = degree_,
+                year = year_
 
             };
             var json = JsonConvert.SerializeObject(inputData);

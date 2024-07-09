@@ -29,5 +29,10 @@ namespace Student_Attendace_System.Dashbord
             Dashbord.ShowHomePanel();
             this.Visible = false;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

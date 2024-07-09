@@ -73,6 +73,7 @@ namespace Student_Attendace_System.PopUpForms
             // close_button2
             // 
             this.close_button2.BackColor = System.Drawing.Color.Transparent;
+            this.close_button2.BackgroundImage = global::Student_Attendace_System.Properties.Resources.close;
             this.close_button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.close_button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.close_button2.FlatAppearance.BorderSize = 0;
@@ -83,6 +84,7 @@ namespace Student_Attendace_System.PopUpForms
             this.close_button2.TabIndex = 0;
             this.close_button2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.close_button2.UseVisualStyleBackColor = false;
+            this.close_button2.Click += new System.EventHandler(this.close_button2_Click_1);
             // 
             // button2
             // 
@@ -97,6 +99,7 @@ namespace Student_Attendace_System.PopUpForms
             this.button2.TabIndex = 24;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // student_name
             // 

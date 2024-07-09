@@ -118,5 +118,10 @@ namespace Student_Attendace_System.Dashbord
         {
 
         }
+
+        private void guna2VProgressBar1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
