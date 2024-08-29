@@ -24,6 +24,14 @@ Our project addresses several challenges faced by the Faculty of Computing and T
 - **Back-End:** Python, with AI algorithms for face recognition
 - **Database:** Real-time database solution for immediate data reflection and access
 
+## Database Architecture
+![Database_Architecture](./Image/Student_attendance_system.drawio.png)
+
+## UI/UX Design and Prototypes
+![Figma](./Image/figma.JPG)
+
+[View on Figma](https://www.figma.com/design/jimqJgZq4hTaFRcwWvNVaS/Student-Attendance-System?node-id=0-1&t=utZcc2IPlMevbL4R-1)
+
 ## Getting Started
 (Here you can include steps to clone the repo, install dependencies, and any initial setup required.)
 
