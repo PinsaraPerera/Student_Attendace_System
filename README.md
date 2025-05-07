@@ -3,7 +3,7 @@
 ## Overview
 The Student Attendance System is an innovative solution designed to automate the attendance process in educational institutions, specifically tailored for the Faculty of Computing and Technology. Utilizing advanced face recognition technology, this system aims to streamline attendance tracking in real-time, thereby enhancing the accuracy and efficiency of this routine yet critical academic operation.
 
-## Key Features
+## Key Features:
 - **Automated Attendance Tracking:** Leverages AI-powered face recognition to automate student attendance during lectures.
 - **Real-Time Database Updates:** Seamlessly updates attendance records in a real-time database, ensuring timely and accurate attendance data.
 - **Front-End Functionality:** Provides a user-friendly interface for managing attendance records, generating reports, and accessing lecture timetables.
@@ -51,7 +51,7 @@ Our project is the result of the hard work and dedication of a talented group of
 - **Pawan Perera** - CS/2020/005
 - **Y.P.Viduruwan**- CS/2020/006
 - **Oshada Weerasiri** - CS/2020/071
-- **[Name]** - stu_no
+- **Tharindu Akash** - CS/2020/004
 - **[Name]** - stu_no
 - **[Name]** - stu_no
 
